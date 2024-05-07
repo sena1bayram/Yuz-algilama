@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-#ice aktar eindtein
+#ice aktar einstein
 einstein = cv2.imread("einstein.jpg",0)
 plt.figure(), plt.imshow(einstein,cmap= "gray"), plt.axis("off")
 
